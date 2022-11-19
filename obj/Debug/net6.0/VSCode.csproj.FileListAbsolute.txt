@@ -1,0 +1,15 @@
+E:\Learning\VSCode\obj\Debug\net6.0\VSCode.csproj.AssemblyReference.cache
+E:\Learning\VSCode\obj\Debug\net6.0\VSCode.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\VSCode\obj\Debug\net6.0\VSCode.AssemblyInfoInputs.cache
+E:\Learning\VSCode\obj\Debug\net6.0\VSCode.AssemblyInfo.cs
+E:\Learning\VSCode\obj\Debug\net6.0\VSCode.csproj.CoreCompileInputs.cache
+E:\Learning\VSCode\bin\Debug\net6.0\VSCode.exe
+E:\Learning\VSCode\bin\Debug\net6.0\VSCode.deps.json
+E:\Learning\VSCode\bin\Debug\net6.0\VSCode.runtimeconfig.json
+E:\Learning\VSCode\bin\Debug\net6.0\VSCode.dll
+E:\Learning\VSCode\bin\Debug\net6.0\VSCode.pdb
+E:\Learning\VSCode\obj\Debug\net6.0\VSCode.dll
+E:\Learning\VSCode\obj\Debug\net6.0\refint\VSCode.dll
+E:\Learning\VSCode\obj\Debug\net6.0\VSCode.pdb
+E:\Learning\VSCode\obj\Debug\net6.0\VSCode.genruntimeconfig.cache
+E:\Learning\VSCode\obj\Debug\net6.0\ref\VSCode.dll
