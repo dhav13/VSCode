@@ -1,6 +1,6 @@
 namespace Scaler
 {
-    public class CountAtLeast1GreaterThanItSelf
+    public static class CountAtLeast1GreaterThanItSelf
     {
         static void BrutForceWay(int[] input)
         {
@@ -19,16 +19,16 @@ namespace Scaler
             Console.WriteLine(count);
         }
 
-        static void optimizedWay(int[] input)
-        {
+        // static void optimizedWay(int[] input)
+        // {
 
-        }
-        public static void Main(string[] args)
+        // }
+        public static void Main()
         {
             int[] input = { -3, 2, 5, 8, 6, 7, 8, 10, -2 };
             BrutForceWay(input);
 
-            optimizedWay(input);
+            //optimizedWay(input);
         }
     }
 }

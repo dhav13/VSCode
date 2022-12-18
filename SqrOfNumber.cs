@@ -1,6 +1,7 @@
+// Given a perfect square find the square root of given no
 namespace Scaler
 {
-public class SqrOfNumber
+public static class SqrOfNumber
 {
     static long Sqr()
     {
@@ -29,7 +30,7 @@ public class SqrOfNumber
         }
         return result;
     }
-    public static void Main(string[] args)
+    public static void Main()
     {
         long value = Sqr();
         Console.WriteLine(value);

@@ -26,9 +26,10 @@
 
 namespace Scaler
 {
-    public class IsItPrime
+     public static class IsItPrime
     {
-        static void isItPrime(int input)
+        //Method 1
+        static void IsPrime(int input)
         {
             bool result = true;
             for (int i = 2; i < input; i++)
@@ -44,10 +45,32 @@ namespace Scaler
             else
                 Console.WriteLine("NO");
         }
-        public static void Main(string[] args)
+
+        //Method 2
+        static void IsPrime2(int input)
+        {
+            int c=0;
+            for(int i=1;i*i<input;i++)
+            {
+                if(input%i==0)
+                {
+                    if(i*i == input)
+                        c++;
+                    else
+                        c+=2;
+                }
+            }
+            if(c==2)
+                Console.WriteLine("YES");
+            else
+                Console.WriteLine("NO");
+        }
+
+        public static void Main()
         {
             int input = Convert.ToInt32(Console.ReadLine());
-            isItPrime(input);
+            IsPrime(input);
+            IsPrime2(input);
         }
     }
 }
