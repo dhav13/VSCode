@@ -89,6 +89,11 @@ namespace Scaler
 
             int rotateTime = Convert.ToInt32(Console.ReadLine());
 
+            //If num of rotation is greater than array size
+            if (rotateTime > sizeOfArray)
+            {
+                rotateTime = rotateTime % sizeOfArray;
+            }
             rotate(inputArray, rotateTime);
         }
     }
