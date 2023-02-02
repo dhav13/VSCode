@@ -43,7 +43,7 @@
 
 namespace Scaler
 {
-    public class EquilibriumIndex
+    public class EquilibriumIndex : Base
     {
 
         static void EquilibriumIndx_ArraySum(int[] A)
@@ -106,11 +106,18 @@ namespace Scaler
         {
             int[] A = { -7, 1, 5, 2, -4, 3, 0 };
 
+            watch.Start();
             //Using PreFix-Sum
             EquilibriumIndx_PreFix(A);
+            watch.Stop();
+            Console.WriteLine("TimeTaken PreFix " + watch.ElapsedMilliseconds);
 
+
+            watch.Start();
             //Using Array-Sum
             EquilibriumIndx_ArraySum(A);
+            watch.Stop();
+            Console.WriteLine("TimeTaken ArraySum " + watch.ElapsedMilliseconds);
         }
     }
 }
